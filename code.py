@@ -12,7 +12,8 @@ def sum_numbers(x, y):
         Sum of x and y.
     """
     # replace the following line with an actual implementation that returns something
-    raise NotImplementedError()
+    z = x + y
+    return z
 
 def multiply_numbers(x, y):
     """
@@ -27,7 +28,8 @@ def multiply_numbers(x, y):
     """
     
     # replace the following line with an actual implementation that returns something
-    raise NotImplementedError()
+    z = x*z
+    return z
 
 def create_add_matrix(x):
     """
@@ -43,7 +45,9 @@ def create_add_matrix(x):
     """
 
     # replace the following line with an actual implementation that returns something
-    raise NotImplementedError()
+    y = np.ones((3,3))
+    z = x+y
+    return z
 
 def indexing_aggregation(x, n):
     """
